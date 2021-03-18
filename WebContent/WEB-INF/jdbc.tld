@@ -1,0 +1,19 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.3</jsp-version>
+
+	<tag>
+		<name>displayRecords</name>
+		<tag-class>com.abc.handler.DisplayRecords</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>
+				table
+			</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+
+</taglib>
